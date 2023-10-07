@@ -418,7 +418,7 @@ def returnFromDeath():
 
 if __name__ == "__main__":
     # ПРИЄДНАННЯ С++ ДО ПАЙТОНА І СТВОРЕННЯ ГРИ
-    clibrary = ctypes.WinDLL("C:/CLION/CLionProjects/Coursework/cmake-build-debug/libcoursework.dll")
+    clibrary = ctypes.WinDLL("cmake-build-debug/libcoursework.dll")
     GameHandle = ctypes.POINTER(ctypes.c_char)
     clibrary.createGame.restype = GameHandle
     game = clibrary.createGame()
