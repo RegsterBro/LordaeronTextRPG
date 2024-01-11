@@ -11,6 +11,6 @@
 -- Check for working CXX compiler: C:/Users/without eyes/AppData/Local/Programs/CLion/bin/mingw/bin/g++.exe - skipped
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
--- Configuring done (5.8s)
+-- Configuring done (6.6s)
 -- Generating done (0.0s)
 -- Build files have been written to: C:/Coursework/cmake-build-debug
