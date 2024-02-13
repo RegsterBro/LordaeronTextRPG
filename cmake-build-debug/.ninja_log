@@ -1,6 +1,0 @@
-# ninja log v5
-1250	1362	7080438065424322	main.exe	a19bb692651a9b3e
-23	650	7081298490738712	CMakeFiles/Coursework.dir/Game_wrapped.cpp.obj	72d3e920f977b4cd
-0	11	0	clean	b5392d6d14ed9bdb
-4	701	7081298491277269	CMakeFiles/Coursework.dir/Game.cpp.obj	984ebad5a7057122
-10	561	7081287120282224	CMakeFiles/Coursework.dir/Character.cpp.obj	5c000e0e2b60908d
