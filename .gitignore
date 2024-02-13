@@ -3,3 +3,9 @@
 /venv/
 /venv/Lib/site-packages/
 /build/main/localpycs/
+/.idea/.gitignore
+/.idea/.name
+/.idea/Coursework.iml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/vcs.xml
