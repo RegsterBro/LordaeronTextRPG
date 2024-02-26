@@ -1,10 +1,5 @@
 /cmake-build-debug/
 /build/
 /venv/
-/.idea/.gitignore
-/.idea/.name
-/.idea/Coursework.iml
-/.idea/misc.xml
-/.idea/modules.xml
-/.idea/vcs.xml
+/.idea/
 /main.spec/
