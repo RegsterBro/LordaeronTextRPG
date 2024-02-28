@@ -1,3 +1,3 @@
 run:
-	g++ -o main main.cpp Game.cpp Character.cpp Enemy.cpp Event.cpp Puzzle.cpp Game_wrapped.cpp
-	g++ -fPIC -shared -o cmake-build-debug/libcoursework.dll main.cpp Game.cpp Character.cpp Enemy.cpp Event.cpp Puzzle.cpp Game_wrapped.cpp
+	g++ -o gamefiles/other/main src/core/main.cpp src/core/Game.cpp src/core/Game_wrapped.cpp src/creatures/Character.cpp src/creatures/Enemy.cpp src/events/Event.cpp src/events/Puzzle.cpp
+	g++ -fPIC -shared -o gamefiles/other/libcoursework.dll src/core/main.cpp src/core/Game.cpp src/core/Game_wrapped.cpp src/creatures/Character.cpp src/creatures/Enemy.cpp src/events/Event.cpp src/events/Puzzle.cpp

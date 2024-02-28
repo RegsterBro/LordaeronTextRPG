@@ -3,7 +3,16 @@ project(Coursework)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Coursework main.cpp Game.cpp Character.cpp Enemy.cpp
-        Event.cpp Puzzle.cpp Game_wrapped.cpp
-        Game.h Character.h Enemy.h Event.h Puzzle.h)
+add_executable(Coursework src/core/Game.cpp
+        src/creatures/Character.cpp
+        src/creatures/Enemy.cpp
+        src/events/Event.cpp
+        src/events/Puzzle.cpp
+        src/core/Game_wrapped.cpp
+        include/lordaeron/core/Game.h
+        include/lordaeron/creatures/Character.h
+        include/lordaeron/creatures/Enemy.h
+        include/lordaeron/events/Event.h
+        include/lordaeron/events/Puzzle.h
+        src/core/main.cpp)
 
